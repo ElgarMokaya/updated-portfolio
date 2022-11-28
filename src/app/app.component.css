@@ -73,14 +73,29 @@ a{
    
   }
 
-  @media screen and (max-width: 500px) {
+  /* @media screen and (max-width: 500px) {
   
     #home,
+    
     #about,
     #resume,
     #contact,
     #footer {
         width: 70%;
+        
     }
-}
+} */
   
+   @media screen and (max-width: 500px) {
+  
+    
+    #home,
+    #about {
+        width: 100%;
+        overflow: auto;
+        
+        /* overflow-x: scroll; */
+        /* overflow-y: hidden; */
+        
+    }
+} 

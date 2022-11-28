@@ -2,8 +2,8 @@
 <html>
   
 <head>
-    <meta name='viewport' content=
-        'width=device-width, initial-scale=1.0'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
   
 <body>
@@ -67,13 +67,18 @@
     </div>
     
     <div class="languages">
-     
+   
+      <div class="card-body">
     <figure  *ngFor="let image of images;">
-      <img src={{image.src}} alt="css3" style="width: 100px;">
+      <img src={{image.src}} alt="css3" style="width: 80px;">
       <figcaption>{{image.label}}</figcaption>
-  </figure>
   
-    </div>
+  </figure>
+      </div>
+</div>
+
+
+  
     
   </mat-card-content>
 </mat-card>
@@ -154,7 +159,7 @@
     </mat-card>
     <!--footer-->
 
-    <!-- <mat-card class="footer"id="footer">
+    <mat-card class="footer"id="footer">
       <mat-card-content>
         <div class="footer-details">
           <a href="https://mobile.twitter.com/elgarmokaya" class="fa fa-twitter"></a>
@@ -165,7 +170,7 @@
                  </div>
           </div>
       </mat-card-content>
-    </mat-card> -->
+    </mat-card>
   </body>
   
   </html>
