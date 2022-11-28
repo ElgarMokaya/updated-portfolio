@@ -73,5 +73,14 @@ a{
    
   }
 
- 
+  @media screen and (max-width: 500px) {
+  
+    .home,
+    .about,
+    .resume,
+    .contact,
+    .footer {
+        width: 70%;
+    }
+}
   
